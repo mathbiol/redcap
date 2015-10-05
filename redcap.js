@@ -9,7 +9,7 @@ redcap.buildUI=function(id){
         $('<div id="'+redcap.id+'"></div>').appendTo(document.body)
         console.log('root div not found, one was created with id "'+redcap.id+'"')
     }
-    redCapDiv.innerHTML=':-)' 
+    redCapDiv.innerHTML='<i>This is a barebones UI to test <a href="https://github.com/mathbiol/redcap/blob/gh-pages/redcap.js" target="_blank">redcap.js</a> to interoperate with you <a href="http://project-redcap.org/" target="_blank">REDCap</a> project in your institution infrastructure.</i>' 
     redcap.login()
 }
 
@@ -47,5 +47,5 @@ redcap.loginThen=function(){
 }
 
 redcap.connect=function(){
-    
+    alert('successful')
 }
